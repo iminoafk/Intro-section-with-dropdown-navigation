@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="ll">
+      <img src="images/logo.svg" alt="" id="logo">
+    </div>
+
+    <ul class="menu">
+
+      <li class="onglet" id="sous"><a href="#">Features<img src="images/icon-arrow-down.svg" alt="" id="arrow1"></a>
+        <ul class="sous-menu s1">
+          <li class="sous-onglet"><img src="images/icon-todo.svg" alt="">Todo List</li>
+          <li class="sous-onglet"><img src="images/icon-calendar.svg" alt="">Calendar</li>
+          <li class="sous-onglet"><img src="images/icon-reminders.svg" alt="">Reminders</li>
+          <li class="sous-onglet"><img src="images/icon-planning.svg" alt="">Planning</li>
+        </ul>
+      </li>
+      <li class="onglet" id="sous">
+        <a href="#">Company<img src="images/icon-arrow-down.svg" alt="" id="arrow2"></a>
+        <ul class="sous-menu s2">
+          <li class="sous-onglet">History</li>
+          <li class="sous-onglet">Our team</li>
+          <li class="sous-onglet">Blog</li>
+        </ul>
+      </li>
+      <li class="onglet">Careers</li>
+      <li class="onglet">About</li>
+      <div class="p2">
+        <li class="onglet">Login</li>
+        <li class="onglet" id="register">Register</li>
+      </div>
+    </ul>
+    <div class="burger">
+      <div class="line l1"></div>
+      <div class="line l2"></div>
+      <div class="line l3"></div>
+    </div>
+  </nav>
+
+  <section>
+    <div class="description">
+      <h1><span>Make </span>remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.</p>
+      <a href="#" class="btn">Learn more</a>
+      <div class="logo">
+        <img src="images/client-databiz.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-maker.svg" alt="">
+      </div>
+    </div>
+    <img src="images/image-hero-desktop.png" alt="" id="hero">
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
